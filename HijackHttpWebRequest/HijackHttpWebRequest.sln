@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HijackHttpWebRequest", "HijackHttpWebRequest\HijackHttpWebRequest.csproj", "{10AF900B-6D1F-4F85-8672-916FF7F1767E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF01AAA9-34FB-4306-B6B4-9AB45E320227} = {AF01AAA9-34FB-4306-B6B4-9AB45E320227}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{AF01AAA9-34FB-4306-B6B4-9AB45E320227}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10AF900B-6D1F-4F85-8672-916FF7F1767E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AF900B-6D1F-4F85-8672-916FF7F1767E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AF900B-6D1F-4F85-8672-916FF7F1767E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AF900B-6D1F-4F85-8672-916FF7F1767E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF01AAA9-34FB-4306-B6B4-9AB45E320227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF01AAA9-34FB-4306-B6B4-9AB45E320227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF01AAA9-34FB-4306-B6B4-9AB45E320227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF01AAA9-34FB-4306-B6B4-9AB45E320227}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C65CEE0B-A0D6-49A8-BAF2-F0B0072B0C3C}
+	EndGlobalSection
+EndGlobal
