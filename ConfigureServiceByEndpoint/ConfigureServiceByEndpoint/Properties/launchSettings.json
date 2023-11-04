@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConfigureServiceByEndpoint": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7136;http://localhost:5079"
+    }
+  }
+}

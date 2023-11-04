@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureServiceByEndpoint", "ConfigureServiceByEndpoint\ConfigureServiceByEndpoint.csproj", "{1F921D41-15C8-4E05-88B9-B0EF023D7796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallMultipleEndpoints", "CallMultipleEndpoints\CallMultipleEndpoints.csproj", "{3CF551F8-505E-43A0-8337-C4865D857936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F921D41-15C8-4E05-88B9-B0EF023D7796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F921D41-15C8-4E05-88B9-B0EF023D7796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F921D41-15C8-4E05-88B9-B0EF023D7796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F921D41-15C8-4E05-88B9-B0EF023D7796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF551F8-505E-43A0-8337-C4865D857936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF551F8-505E-43A0-8337-C4865D857936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF551F8-505E-43A0-8337-C4865D857936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF551F8-505E-43A0-8337-C4865D857936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B81328-27D3-4BBB-BCCE-6904551801CE}
+	EndGlobalSection
+EndGlobal
